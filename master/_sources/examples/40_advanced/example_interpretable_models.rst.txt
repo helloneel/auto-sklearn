@@ -237,18 +237,16 @@ Print the final ensemble constructed by auto-sklearn
 
  .. code-block:: none
 
-    {   63: {   'balancing': Balancing(random_state=1),
-                'classifier': <autosklearn.pipeline.components.classification.ClassifierChoice object at 0x7f7f20524100>,
+    {   38: {   'balancing': Balancing(random_state=1),
+                'classifier': <autosklearn.pipeline.components.classification.ClassifierChoice object at 0x7fb93effd9d0>,
                 'cost': 0.007092198581560294,
-                'data_preprocessor': <autosklearn.pipeline.components.data_preprocessing.DataPreprocessorChoice object at 0x7f7f25584790>,
+                'data_preprocessor': <autosklearn.pipeline.components.data_preprocessing.DataPreprocessorChoice object at 0x7fb93ece6ac0>,
                 'ensemble_weight': 1.0,
-                'feature_preprocessor': <autosklearn.pipeline.components.feature_preprocessing.FeaturePreprocessorChoice object at 0x7f7f20524040>,
-                'model_id': 63,
+                'feature_preprocessor': <autosklearn.pipeline.components.feature_preprocessing.FeaturePreprocessorChoice object at 0x7fb93effd6a0>,
+                'model_id': 38,
                 'rank': 1,
-                'sklearn_classifier': SGDClassifier(alpha=9.999999999999991e-05, epsilon=1.3700860264543197e-05,
-                  eta0=0.010000000000000014, learning_rate='invscaling',
-                  loss='modified_huber', max_iter=64, random_state=1,
-                  tol=0.0004668987145850572, warm_start=True)}}
+                'sklearn_classifier': SGDClassifier(alpha=0.019241906196004705, average=True, eta0=0.01, max_iter=64,
+                  random_state=1, tol=0.00010391032309457989, warm_start=True)}}
 
 
 
@@ -283,7 +281,7 @@ Get the Score of the final ensemble
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 2 minutes  0.765 seconds)
+   **Total running time of the script:** ( 2 minutes  3.157 seconds)
 
 
 .. _sphx_glr_download_examples_40_advanced_example_interpretable_models.py:
